@@ -3,13 +3,13 @@ import React, { useState, useEffect } from "react";
 export default function App() {
   // HERO SLIDESHOW IMAGES
   const heroImages = [
-    "/images/chai7.jpg",
-    "/images/chai6.jpg",
-    "/images/chai4.jpg",
-    "/images/chai1.jpg",
-    "/images/chai2.jpg",
-    "/images/chai3.jpg",
-    "/images/chai4.jpg",
+    "images/chai7.jpg",
+    "images/chai6.jpg",
+    "images/chai4.jpg",
+    "images/chai1.jpg",
+    "images/chai2.jpg",
+    "images/chai3.jpg",
+    "images/chai4.jpg",
   ];
 
   const [currentHero, setCurrentHero] = useState(0);
@@ -130,13 +130,13 @@ export default function App() {
           }}
         >
           {[
-            "/images/chai5.jpg",
-            "/images/chai6.jpg",
-            "/images/chai7.jpg",
-            "/images/chai1.jpg",
-            "/images/chai2.jpg",
-            "/images/chai3.jpg",
-            "/images/chai4.jpg",
+            "images/chai5.jpg",
+            "images/chai6.jpg",
+            "images/chai7.jpg",
+            "images/chai1.jpg",
+            "images/chai2.jpg",
+            "images/chai3.jpg",
+            "images/chai4.jpg",
             
     ,
           ].map((img, i) => (

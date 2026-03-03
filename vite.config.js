@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/malgudi/", // 👈 MUST MATCH YOUR REPO NAME
+  base: "/malgudi/", // repo name
 });
